@@ -1,0 +1,23 @@
+.friends {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.imgFriend{
+    display: grid;
+    margin-left: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 50px;
+
+}
+.imgFriend div {
+    margin-left: 10px;
+}
+.imgFriend img{
+    border-radius: 50%;
+    height: 50px;
+}
+.imgFriend a {
+    color: black;
+}

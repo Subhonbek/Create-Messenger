@@ -1,0 +1,23 @@
+.wrapper {
+  margin: 0 auto;
+  background: #333;
+  grid-template-areas:
+  "h h"
+  "n c"
+  "f f";
+
+  grid-template-rows: 70px 9fr 100px;
+  grid-template-columns: 2fr 7fr;
+  grid-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+}
+.grid{
+  display: grid;
+}
+.wrapper{
+  background-image: url("https://wallpaperaccess.com/full/680700.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+}
+

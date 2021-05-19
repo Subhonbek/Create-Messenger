@@ -1,0 +1,11 @@
+.post {
+    color: black;
+    display:block;
+    clear:both;
+}
+
+.post img {
+    border-radius: 50%;
+    height: 50px;
+    margin: 10px;
+}

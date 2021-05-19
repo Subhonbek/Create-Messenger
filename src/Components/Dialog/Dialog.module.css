@@ -1,0 +1,25 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+
+.dialogItems a{
+    font-size: 20px;
+    color: #333333;
+}
+.message{
+    justify-self: end;
+    margin: 10px;
+    padding: 14px;
+    width: 100%;
+}
+
+.message textarea{
+    width: 100%;
+    resize: none;
+    border-radius: 10px;
+}
+.btnSend{
+    justify-self: end;
+    margin-right: 10px;
+}

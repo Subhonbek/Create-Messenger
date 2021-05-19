@@ -1,0 +1,12 @@
+.dialogItems{
+    margin: 10px;
+}
+
+.dialogItems .active{
+    color: white;
+    font-size: 25px;
+}
+.dialogItems img{
+    height: 30px;
+    border-radius: 50%;
+}

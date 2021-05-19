@@ -1,0 +1,30 @@
+
+.messages {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    padding: 10px;
+}
+.message {
+    justify-self: start;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.message img{
+    border-radius: 50%;
+    height: 30px;
+    margin-right: 10px;
+}
+.myMessage img{
+    border-radius: 50%;
+    height: 30px;
+    margin-left: 10px;
+}
+.myMessage {
+    justify-self: end;
+    align-self: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}

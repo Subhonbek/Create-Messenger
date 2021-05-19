@@ -1,0 +1,41 @@
+.nav {
+    grid-area: n;
+    background: #ccc;
+    grid-column: 1/1;
+    border-radius: 10px;
+}
+
+.menu{
+    padding: 20px 30px 30px;
+}
+
+.menu a {
+
+    color: #7c7c7c;
+    font-size: 20px;
+
+}
+
+
+.menu a.active {
+    color: black;
+    font-size: 25px;
+}
+
+
+
+
+
+.nav .friends {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.imgFriend{
+    margin-left: 20px;
+}
+.imgFriend img{
+    border-radius: 50%;
+    height: 50px;
+    margin: 10px 10px 100px;
+}

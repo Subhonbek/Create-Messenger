@@ -1,0 +1,10 @@
+.header {
+    display: grid;
+    grid-template-columns: 20fr 2fr 10fr;
+
+    grid-area: h;
+    grid-column: 1/-1;
+    padding: 10px;
+    background: #ccc;
+    border-radius: 0 0 10px 10px;
+}
