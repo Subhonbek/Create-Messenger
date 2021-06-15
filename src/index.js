@@ -7,16 +7,16 @@ import {BrowserRouter} from "react-router-dom";
 
 let reRenderEntireTree = (state) => {
     ReactDOM.render(
-        <React.StrictMode>
             <BrowserRouter>
                 <App state={state}
                      dispatch={store.dispatch.bind(store)}/>
-            </BrowserRouter>
-        </React.StrictMode>,
+            </BrowserRouter>,
         document.getElementById('root')
     );
 }
+
 reRenderEntireTree(store.getState());
+
 store.subscribe(() => {
     reRenderEntireTree(store.getState());
 });

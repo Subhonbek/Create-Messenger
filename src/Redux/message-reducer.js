@@ -50,7 +50,6 @@ let initialState = {
                 message: "Yo",
                 messageImg: "https://whatsism.com/uploads/posts/2018-07/1530546770_rmk_vdjbx10.jpg"
             }
-
         ],
         messageText: ''
     };
